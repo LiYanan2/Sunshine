@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 "Mon, May 30 - Post Apocalypse - 15°C / 10°C",
         };
 
-        for (String weather : dummyWeatherData) {
-            mWeatherList.append(dummyWeatherData + "\n\n\n");
+        for (int i = 0;i<dummyWeatherData.length;i++) {
+            mWeatherList.append(dummyWeatherData[i]+ "\n\n\n");
         }
     }
 }
